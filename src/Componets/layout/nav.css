@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100VW;
+  margin-top: 10px;
+  padding: 38px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.logo {
+  color: #FFF;
+  font-family: 'kata';
+  font-style: normal;
+  font-weight: 400;
+  width: 91px;
+
+  display: flex;
+  flex-direction: column;
+
+  line-height: 0.9;   /* KEY */
+}
+
+.logo span {
+  display: block;     
+  margin: 0;         
+  padding: 0;
+}
+
+.logo .lex,
+.logo .ora {
+  font-size: 64px;
+  line-height: 0.5;   
+}
+nav{
+  width: 605px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: 
+    blur(24px)
+    saturate(180%)
+    brightness(1.15)
+    contrast(1.1);
+  -webkit-backdrop-filter: 
+    blur(24px)
+    saturate(180%)
+    brightness(1.15)
+    contrast(1.1);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 8px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+h2{
+  color: #C3C3C3;
+  font-family:'kata';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.15%; /* 28.836px */
+}
+.getintouch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: row;
+}
+.darkmode{
+    width: 36.667px;
+  height: 36.667px;
+  background-image: url(../../assets/SUN.png);
+}
