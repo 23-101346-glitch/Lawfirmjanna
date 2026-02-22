@@ -1,0 +1,24 @@
+.practicediv{
+    display: flex;
+width: 332px;
+flex-direction: column;
+align-items: flex-start;
+gap: 19px;
+}
+.ptitle{
+    color: #CCC269;
+font-family: 'kar';
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 120.15%; /* 38.448px */
+text-transform: uppercase;
+}
+.pp{
+    color: #FFF;
+font-family: 'kar';
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 120.15%; /* 28.836px */
+}

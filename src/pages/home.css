@@ -173,7 +173,7 @@ height: 406px;
 border-radius: 0 67px 67px 67px;
 border: 1px solid #CCC269;
 padding-top: 15px;
-padding: 15px;
+padding:25px;
 }
 .two{
     border-radius: 67px 67px 0 67px;
@@ -183,4 +183,30 @@ border: 1px solid #CCC269;
     width: 1px;
 height: 566px;
 background: linear-gradient(180deg, #FFF 0%, #464646 100%);
+}
+.s4{
+    width: 100vw;
+height: 860px;
+background-color: #CCC269;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.s4div1{
+    display: flex;
+width: 1076px;
+height: 710px;
+background-color: #000000;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.w{
+    width: 0;
+}
+.practice-container {
+    display: grid;
+    grid-template-columns: repeat(3, 332px);
+    gap: 24px; /* space between divs */
+     row-gap: 64px;   
 }

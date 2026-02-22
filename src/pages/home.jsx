@@ -5,6 +5,7 @@ import Button from '../Componets/common/button';
 import Scroll from '../Componets/common/scroll';
 import Title from '../Componets/common/title'
 import Number from '../Componets/common/number';
+import Practice from '../Componets/common/practice';
 
 const Home = () => {
   return (
@@ -84,6 +85,43 @@ const Home = () => {
                         mainText="OUR MISSION"
                     />
             </div>
+        </div>
+      </section>
+      <section className='s4'>
+        <div className='s4div1'>
+             <Title 
+                        mainText="PRACTICE AREAS"
+                    />
+            <div className='practice-container'>
+                <Practice 
+                ptitle="Corporate Law"
+                pp="Advising businesses on contracts, compliance, mergers, and corporate governance."
+                />
+                  <Practice 
+                ptitle="Criminal Law"
+                pp="Defense representation and legal counsel for criminal cases at all levels."
+                />
+                  <Practice 
+                ptitle="Family Law"
+                pp="Handling divorce, child custody, adoption, and other family-related legal matters."
+                />
+                  <Practice 
+                ptitle="Intellectual Property"
+                pp="Protecting patents, trademarks, copyrights, and trade secrets."
+                />
+                  <Practice 
+                ptitle="Intellectual Property"
+                pp="Assisting with property disputes, contracts, leasing, and transactions."
+                />
+                  <Practice 
+                ptitle="Real Estate Law"
+                pp="Guiding workplace rights, contracts, and employment disputes."
+                />
+             
+            </div>
+            <Button 
+                    text="EXPLORE"
+                    />
         </div>
       </section>
     </>
