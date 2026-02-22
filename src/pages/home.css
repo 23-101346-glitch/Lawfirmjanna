@@ -1,3 +1,4 @@
+/* ===================== FONTS ===================== */
 @font-face {
     font-family: 'kata';
     src: url(../fonts/Katibeh-Regular.ttf);
@@ -10,67 +11,135 @@
     font-family: 'watt';
     src: url(../fonts/Watterlen-2vY0e.otf);
 }
-*{
+@font-face {
+    font-family: 'kar';
+    src: url(../fonts/Karma-Regular.ttf);
+}
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+html, body {
     width: 100%;
-    height: auto;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-
-    
+    height: auto;    
+    overflow-x: hidden;
+    overflow-y: auto;  
+    scroll-behavior: smooth; 
+    background-color: black;
+    font-family: 'watt', sans-serif;
 }
 
+.s1 {
+  position: relative;  /* stacking context */
+  width: 100vw;
 
-.s1{
-    width: 100vw;
+}
+
+.backgroundimg {
+  position: absolute;
+  top: 0;
+  right: 0;
+ width: 597px;
 height: 850px;
-background-color: rgb(0, 0, 0);
-margin-top: 0;
-position: relative;
-z-index: -11;
+aspect-ratio: 59/84;      /* fill section */
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  background-position: center;
+  z-index: 0;           /* behind content */
 }
-.circle{
-  width: 437px;
-  height: 437px;
-  border-radius: 437px;
-  background: rgba(217, 217, 217, 0.28);
-  filter: blur(172px);
-  display: flex;
-margin-top: 10%;
-margin-left: 35%;
-position: absolute;
+
+.circle, .div1 {
+  position: relative;    /* above background */
+  z-index: 1;
 }
-.div1{
+
+.circle {
+    width: 437px;
+    height: 437px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.28);
+    filter: blur(172px);
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: 0;
+}
+
+.div1 {
     width: 608px;
-    height: 609.956px;
+    height: 610px;
     display: flex;
     flex-direction: column;
     margin-left: 150px;
     margin-top: 180px;
+    z-index: 2;
 }
-.title{
-    color: #C7C7C7;
-font-family: 'watt';
-font-size: 96px;
+
+
+
+
+
+.s2 {
+    width: 100%;
+    min-height: 921px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s2div{
+    display: flex;
+width: 1062px;
+height: auto;
+flex-direction: column;
+align-items: center;
+gap: 72px;
+
+}
+.s2div2{
+    display: flex;
+align-items: center;
+gap: 98px;
+align-self: stretch;
+}
+.div3{
+    display: flex;
+width: 638px;
+flex-direction: column;
+align-items: flex-start;
+gap: 35px;
+}
+.line{
+    width: 512px;
+height: 1px;
+background: linear-gradient(90deg, #FFF 0%, #6C6868 81.25%);
+}
+p{
+    color: #FFF;
+font-family:'kar';
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-width: 455px;
+line-height: 186%; /* 37.2px */
 }
-.gold{
-    color: #CCC269;
+.p2{
+font-size: 16px;
 }
-.backgroundimg{
-    width: 597px;
-    height: 850px;
-    aspect-ratio: 59/84;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    right: 0;
-    background-image: url(../assets/background.png);
+.p2 {
+    display: block;      /* forces it onto a new line */
+    margin-top: 16px;    /* optional spacing from the first span */
+}
+.photo{
+    width: 326px;
+height: 428px;
+background-image: url(../assets/Frame\ 5.png);
+}
+.numberdiv{
+    display: flex;
+align-items: center;
+gap: 100px;
+flex-direction: row;
 }

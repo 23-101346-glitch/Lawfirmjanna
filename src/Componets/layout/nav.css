@@ -1,12 +1,16 @@
 header {
+  position: fixed;
+  top: 0;              /* ✅ REQUIRED */
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100VW;
-  margin-top: 10px;
+
   padding: 38px;
   box-sizing: border-box;
-  position: fixed;
 }
 
 .logo {
