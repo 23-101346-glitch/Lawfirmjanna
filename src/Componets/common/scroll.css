@@ -1,0 +1,31 @@
+.scrolldiv{
+    display: flex;
+width: 88px;
+flex-direction: column;
+align-items: center;
+gap: 6px;
+align-self: flex-end;
+display: flex;
+}
+.scrollicon{
+    width: 22.793px;
+height: 52.825px;
+background-image: url(../../assets/scroll.png);
+}
+.scrolltext{
+    color: #FFF;
+font-family: 'watt';
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.scrolldiv {
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.scrolldiv:hover {
+  transform: translateY(6px);
+  opacity: 0.8;
+}
