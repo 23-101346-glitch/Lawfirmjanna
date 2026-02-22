@@ -143,3 +143,44 @@ align-items: center;
 gap: 100px;
 flex-direction: row;
 }
+.s3{
+    display: flex;
+    width: 100VW;
+    height: 717px;
+    justify-content:center ;
+    align-items: center;
+
+}
+.s3div{
+    width: 966px;
+    height: 566px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ourvision{
+    width: 375px;
+height: 518px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.golddiv{
+    width: 375px;
+height: 406px;
+border-radius: 0 67px 67px 67px;
+border: 1px solid #CCC269;
+padding-top: 15px;
+padding: 15px;
+}
+.two{
+    border-radius: 67px 67px 0 67px;
+border: 1px solid #CCC269;
+}
+.line2{
+    width: 1px;
+height: 566px;
+background: linear-gradient(180deg, #FFF 0%, #464646 100%);
+}

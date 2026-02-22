@@ -63,6 +63,29 @@ const Home = () => {
             </div>
         </div>
       </section>
+      <section className='s3'>
+        <div className='s3div'>
+            <div className='ourvision'>
+                <Title 
+                        mainText="OUR VISION"
+                    />
+                <div className='golddiv'>
+                    <p>To be the definitive cornerstone of legal excellence—shaping the future of advocacy through unwavering integrity, sophisticated strategy, and a relentless commitment to protecting our clients' legacies.
+                        </p>
+                </div>
+            </div>
+            <div className='line2'></div>
+            <div className='ourvision'>
+                <div className='golddiv two'>
+                    <p> To provide sophisticated legal counsel and aggressive advocacy that secures our clients' interests. We combine deep technical expertise with a tireless commitment to achieving the most favorable outcomes in the most complex environments.
+                        </p>
+                </div>
+                 <Title 
+                        mainText="OUR MISSION"
+                    />
+            </div>
+        </div>
+      </section>
     </>
   );
 };
