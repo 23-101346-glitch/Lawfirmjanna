@@ -10,16 +10,18 @@ import Team from '../Componets/common/team';
 import t1 from '../assets/team1.png'
 import t2 from '../assets/team2.png'
 import t3 from '../assets/image 9.png'
+import Footer from '../Componets/layout/footer';
 
 const Home = () => {
   return (
     <>
       <Nav />
       <div className='backgroundimg'></div>
-      <section className='s1'>
+      <section id="home" className='s1'>
         <div className='circle'></div>
         <div className='div1'>
           <Title 
+          className="t"
                 mainText="Your Case. Our Commitment. Total"
                 highlightText="Victory." 
             />
@@ -91,7 +93,7 @@ const Home = () => {
             </div>
         </div>
       </section>
-      <section className='s4'>
+      <section id="practice" className='s4'>
         <div className='s4div1'>
              <Title 
                         mainText="PRACTICE AREAS"
@@ -128,7 +130,7 @@ const Home = () => {
                     />
         </div>
       </section>
-      <section className='s5'>
+      <section id="why-us" className='s5'>
         <div className='s5div'>
             <div className="why">
                 <Title
@@ -145,7 +147,7 @@ const Home = () => {
             
         </div>
       </section>
-      <section className='s6'>
+      <section id="team" className='s6'>
         <div className='s6div'>
              <Title 
                  mainText="our team"
@@ -174,7 +176,7 @@ const Home = () => {
             </div>
         </div>
       </section>
-      <section className='s7'>
+      <section id="contact" className='s7'>
         <div className='s7div'>
             <div className="contact-us">
             <div className="contact-info">
@@ -199,6 +201,7 @@ const Home = () => {
             </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

@@ -1,12 +1,40 @@
+:root {
+  /* Default (Dark Mode) */
+  --black: #000000;
+  --text: #ffffff;
+  --gold: #CCC269; /* gold */
+  --overlay: rgba(0, 0, 0, 0.65);
+  --border: #ccc;
+  --border-focus: #ffffff;
+  --line-gradient-end:linear-gradient(90deg, #FFF 0%, #6C6868 81.25%);
+  --line2-gradient-end:linear-gradient(180deg, #FFF 0%, #464646 100%);
+  --grey: #C3C3C3;
+  --title:#C7C7C7;
+}
+
+/* Light Mode */
+[data-theme="light"] {
+  --black: #ffffff;
+  --text: #000000;
+  --gold: #CCC269; /* keep same gold */
+  --overlay: rgba(0, 0, 0, 0.15); /* lighter overlay */
+  --border: #888;
+  --border-focus: #000;
+  --line-gradient-start: #000000;
+  --line-gradient-end: #999999;
+  --line2-gradient-end: #666666;
+  --title: #000000;
+  
+}
 .title {
-    color: #C7C7C7;
+    color: var(--title);
     font-family: 'watt', sans-serif;
     font-size: 96px;
     font-weight: 400;
     line-height: normal;
-  
+    width: 455px;
 }
 
 .gold {
-    color: #CCC269;
+    color: var(--gold);
 }
