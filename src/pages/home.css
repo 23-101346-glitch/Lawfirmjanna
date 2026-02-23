@@ -187,7 +187,6 @@ background: linear-gradient(180deg, #FFF 0%, #464646 100%);
 .s4{
     width: 100vw;
 height: 860px;
-background-color: #CCC269;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -207,6 +206,56 @@ justify-content: space-between;
 .practice-container {
     display: grid;
     grid-template-columns: repeat(3, 332px);
-    gap: 24px; /* space between divs */
+    gap: 40px; /* space between divs */
      row-gap: 64px;   
+}
+.s5{
+    display: flex;
+    width: 100vw;
+    height: 548px;
+    align-items: center;
+    justify-content: center;
+}
+.s5div{
+    display: flex;
+    width: 1111px;
+    height: 394px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+.why .title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.why .title span {
+  display: block;
+}
+
+.why .title span:first-child {
+  max-width: 64px;
+}
+.s5div2{
+    display: flex;
+width: 744px;
+flex-direction: column;
+align-items: flex-start;
+gap: 29px;
+flex-shrink: 0;
+}
+.p2{
+    width: 696px;
+}
+.goldiv2{
+    display: flex;
+height: 242px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+border-radius: 31px;
+border: 1px solid #CCC269;
+padding: 34px 37px;
 }

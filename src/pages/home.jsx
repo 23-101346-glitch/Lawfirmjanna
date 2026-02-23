@@ -124,6 +124,23 @@ const Home = () => {
                     />
         </div>
       </section>
+      <section className='s5'>
+        <div className='s5div'>
+            <div className="why">
+                <Title
+                    mainText="why choose"
+                    highlightText="us"
+                 />
+            </div>
+            <div className='s5div2'>
+                <p className='p2'>Our commitment, experience, and proven track record set us apart in providing top-notch legal services."</p>
+                <div className='goldiv2'>
+                    <p>At our firm, we combine over 20 years of legal expertise with a commitment to personalized service and proven results. Our experienced team of attorneys is dedicated to guiding clients through every step of the legal process with integrity, professionalism, and attention to detail. Recognized for our trusted reputation and comprehensive support, we strive to deliver effective solutions tailored to each client’s unique needs</p>
+                </div>
+            </div>
+            
+        </div>
+      </section>
     </>
   );
 };
