@@ -174,6 +174,31 @@ const Home = () => {
             </div>
         </div>
       </section>
+      <section className='s7'>
+        <div className='s7div'>
+            <div className="contact-us">
+            <div className="contact-info">
+                <Title 
+                 mainText="conatct us"
+            />
+                <p>We’re here to help. Reach out to us and one of our attorneys will respond promptly.</p>
+                <ul>
+                <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                <li><strong>Email:</strong> info@lawfirm.com</li>
+                <li><strong>Address:</strong> 123 Main Street, Cairo, Egypt</li>
+                </ul>
+            </div>
+
+            <form className="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <input type="text" name="subject" placeholder="Subject" />
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            </div>
+        </div>
+      </section>
     </>
   );
 };
