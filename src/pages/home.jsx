@@ -6,6 +6,10 @@ import Scroll from '../Componets/common/scroll';
 import Title from '../Componets/common/title'
 import Number from '../Componets/common/number';
 import Practice from '../Componets/common/practice';
+import Team from '../Componets/common/team';
+import t1 from '../assets/team1.png'
+import t2 from '../assets/team2.png'
+import t3 from '../assets/image 9.png'
 
 const Home = () => {
   return (
@@ -139,6 +143,35 @@ const Home = () => {
                 </div>
             </div>
             
+        </div>
+      </section>
+      <section className='s6'>
+        <div className='s6div'>
+             <Title 
+                 mainText="our team"
+            />
+            <div className='team'>
+               <Team
+               img ={t1}
+                teamtext="John Smith"
+                teamp="Corporate Lawyer"
+                teams="12+ years experience handling mergers, acquisitions, and corporate compliance."
+                />
+
+                <Team
+                img ={t2}
+                teamtext="David Johnson"
+                teamp="Criminal Defense Attorney"
+                teams="Specializes in high-profile criminal cases, protecting client rights with proven results."
+                />
+
+                <Team
+                img ={t3}
+                teamtext="Robert Wilson"
+                teamp="Family Law Specialist"
+                teams="Expert in mediation and family dispute resolution, helping clients find amicable solutions."
+                />
+            </div>
         </div>
       </section>
     </>
